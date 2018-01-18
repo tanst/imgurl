@@ -19,7 +19,7 @@
 	//新的文件名
 	$new_name = $fhash.'.'.$suffix;
 	$img_error = $_FILES["file"]["error"];	//错误代码
-	$max_size = 2097152;		//最大上传大小2M
+	$max_size = 20971520;		//最大上传大小20M
 	$current_time = date('ym',time());	//当前月份
 	$dir = $dir.'/'.$current_time;	//图片目录
 	$dir_name = $dir.'/'.$new_name;		//完整路径
