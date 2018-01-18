@@ -2,7 +2,7 @@ $(document).ready(function()
 {	
 	$("#fileuploader").uploadFile({
 	url:"./upload.php",
-	maxFileSize:"2097152",
+	maxFileSize:"20971520",
 	allowedTypes:"jpg,jpeg,png,gif,bmp",
 	showStatusAfterSuccess:"false",
 	dragdropWidth:"100%",
